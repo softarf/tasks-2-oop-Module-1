@@ -7,14 +7,14 @@ class Character:  # Персонаж
     energy = 100  # Энергия
     hands =2     # Число конечностей
     backpack = []
-    
+
     def eat(self, food):      # Покушать
         print('  Отработал метод: eat')
         if self.energy < 100:
             self.energy += food
         else:
             print(' Not hanqry')
-    
+
     def do_exercise(self, hours):  # Потренероваться
         print('  Отработал метод: do_exercise')
         if self.energy > 0:
@@ -22,7 +22,7 @@ class Character:  # Персонаж
             self.power += hours * 2
         else:
             print(' Too tired')
-    
+
     def chenge_alias(self, new_alias):  # Смена псевдонима
         print('  Отработал метод: chenge_alias')
         print(self)
@@ -70,3 +70,5 @@ print(bruce.__dict__)
 peter.backpack.append('web-shooters')
 print(peter.backpack)
 print(bruce.backpack)
+
+input('\n  -- Конец --  ')	#	Типа  "Пауза" - Для среды
