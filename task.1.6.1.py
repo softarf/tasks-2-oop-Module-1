@@ -1,72 +1,52 @@
 
-class Character:  # Персонаж
-    ''' Некий игровой персонаж
-    '''
-    name = ''     # Имя
-    power = 0     # Сила
-    energy = 100  # Энергия
-    hands =2     # Число конечностей
-    backpack = []
-    
-    def eat(self, food):      # Покушать
-        print('  Отработал метод: eat')
-        if self.energy < 100:
-            self.energy += food
+class Student:
+	
+    def __init__(self, stud_name, stud_surname, stud_gender):
+        self.name = stud_name
+        self.surname = stud_surname
+        self.gender = stud_gender
+        self.finished_courses = []
+        self.courses_in_progress = []
+        self.grades = {}
+
+    def add_courses(self, course_name):
+        self.finished_courses.append(course_name)
+
+
+class Mentor:
+	
+    def __init__(self, ment_name, ment_surname):
+        self.name = ment_name
+        self.surname = ment_surname
+        self.courses_attached = []
+
+    def rate_hw(self, student, course, grade):
+        if isinstance(student, Student) and course in self.courses_attached and course in student.courses_in_progress:
+            if course in student.grades:
+                student.grades[course] += [grade]
+            else:
+                student.grades[course] = [grade]
         else:
-            print(' Not hanqry')
-    
-    def do_exercise(self, hours):  # Потренероваться
-        print('  Отработал метод: do_exercise')
-        if self.energy > 0:
-            self.energy -= hours * 3
-            self.power += hours * 2
-        else:
-            print(' Too tired')
-    
-    def chenge_alias(self, new_alias):  # Смена псевдонима
-        print('  Отработал метод: chenge_alias')
-        print(self)
-        self.alias = new_alias
+            return 'Ошибка'
 
 
-print(Character.__dict__)
-print(dir(Character))
+best_student = Student('Ruoy', 'Eman', 'your_gender')
+best_student.finished_courses += ['Git']
+best_student.courses_in_progress += ['Python']
+best_student.grades['Git'] = [10, 10, 10, 10, 10]
+best_student.grades['Python'] = [10, 10]
 
-peter = Character()
-print('\n    peter: ', type(peter))
-print(peter.name)
-print(peter.power)
-print(peter.energy)
-print(peter.hands)
-print(peter.__dict__)
-print()
-peter.name = 'Peter Parker'
-peter.power = 70
-peter.alias = 'Spyder-Man'
-print(peter.name)
-print(peter.power)
-print(peter.energy)
-print(peter.hands)
-print(peter.alias)  # Псевдоним (Кличка, Nick)
-print(peter.__dict__)
+print(best_student.finished_courses)
+print(best_student.courses_in_progress)
+print(best_student.grades)
 
-bruce = Character()
-print('\n    bruce: ', type(bruce))
-print(bruce.name)
-print(bruce.power)
-print(bruce.energy)
-print(bruce.hands)
-print(bruce.__dict__)
-print()
-bruce.name = 'Bruce Wayne'
-bruce.power = 85
-bruce.chenge_alias('Batman')
-print(bruce.name)
-print(bruce.power)
-print(bruce.energy)
-print(bruce.hands)
-print(bruce.alias)  # Псевдоним (Кличка, Nick)
-print(bruce.__dict__)
-peter.backpack.append('web-shooters')
-print(peter.backpack)
-print(bruce.backpack)
+cool_mentor = Mentor('Some', 'Buddy')
+cool_mentor.courses_attached += ['Python']
+print(cool_mentor.courses_attached)
+cool_mentor.rate_hw(best_student, 'Python', 10)
+cool_mentor.rate_hw(best_student, 'Python', 10)
+cool_mentor.rate_hw(best_student, 'Python', 10)
+
+print(best_student.grades)
+
+input('\n  -- Конец --  ')	#	Типа  "Пауза" - Для среды
