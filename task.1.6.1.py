@@ -50,3 +50,7 @@ cool_mentor.rate_hw(best_student, 'Python', 10)
 print(best_student.grades)
 
 input('\n  -- Конец --  ')	#	Типа  "Пауза" - Для среды
+# HTML, CSS, JavaScript, AJAX, React, Django, Java, Kotlin
+# Валерий Хаслер, Татьяна Тен, Алёна Батицкая, Эдгар Нуруллин
+# Дмитрий Качалов, Никита Шумский, Евгений Шмаргунов, Олег Булыгин, Елена Никитина
+# Александр Бардин, ещё 
