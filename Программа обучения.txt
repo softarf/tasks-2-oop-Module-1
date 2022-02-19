@@ -1,16 +1,130 @@
 
-Создаёт новый репозиторий для продолжения изучения Python
+            Модуль -1 (Самостоятельно).
+        Английский для программистов.
 
-        Новые разделы:
+Lesson 1.  Basic Vocabulary for IT.                                  *
+Lesson 2.  Emails.                                                   *
+Lesson 3.  Requirements analysis and SRS.                            *
+Lesson 4.  Development.                                              *
+Lesson 5.  Testing.                                                  *
+Lesson 6.  Workplace challenges.                                     *
+Lesson 7.  Troubleshooting.                                          *
+Lesson 8.  Teamwork.                                                 *
+Lesson 9.  Negotiation tips                                          *
+Lesson 10. Meetings & presentations.                                 *
 
-    Раздел 1. Знакомство с Python (Продолжение).
-Занятие 6. ООП: Объекты и Классы. Взаимодействие между ними.  03.02.22
-Занятие 7. ООП: Наследование, Инкапсуляция и Полиморфизм.     07.02.22
+
+            Модуль 0 (Самостоятельно).
+        Вводный модуль для самостоятельного изучения PD и FPY. (FPY - Фронт-енд разработчик)
+
+Занятие 1. Организационная информация от команды сопровождения.      *
+Занятие 2. Вводная информация по курсу.                              *
+Занятие 3. Как пользоваться личным кабинетом?                        *
+Занятие 4. Как мотивировать себя учиться?                            *
+Занятие 5. Обучение и карьера Python-разработчика.                   *
+
+
+            Модуль 1.
+        Основы языка программирования Python.
+
+    Раздел 1. Знакомство с Python.
+
+ Занятие 1. Python. Знакомство с консолью.                           20.12.21
+ДЗ1: https://github.com/netology-code/py-homeworks-basic/blob/master/1.python.console
+
+ Занятие 2. Условные конструкции. Операции сравнения.                24.12.21
+ДЗ2: https://github.com/netology-code/py-homeworks-basic/tree/master/2.conditions
+
+ Занятие 3. Введение в типы данных и циклы.                          28.12.21
+ДЗ3: https://github.com/netology-code/py-homeworks-basic/tree/master/3.introduce_datatypes
+
+ Занятие 4. Коллекции данных. Словари. Множества.                    10.01.22
+ДЗ4: https://github.com/netology-code/py-homeworks-basic/tree/master/4.collections
+
+ Занятие 5. Функции. Использование встроенных, создание собственных. 12.01.22
+ДЗ5: https://github.com/netology-code/py-homeworks-basic/tree/master/5.functions
+
+ Занятие 6. ООП: Объекты и Классы. Взаимодействие между ними.        03.02.22
+ДЗ6 (Квиз1): https://netology.ru/profile/program/py-51/lessons/123619/lesson_items/630742
+
+ Занятие 7. ООП: Наследование, Инкапсуляция и Полиморфизм.           07.02.22
+ДЗ7: https://github.com/netology-code/py-homeworks-basic/tree/master/6.classes
 
     Раздел 2. Работа с файловой системой в Python.
-Занятие 8. Открытие и чтение файла, запись в файл.            10.02.22
-Занятие 9. Работа с разными форматами данных.                 15.02.22
+
+ Занятие 8. Открытие и чтение файла, запись в файл.                  10.02.22
+ДЗ8: https://github.com/netology-code/py-homeworks-basic/tree/master/7.files
+
+ Занятие 9. Работа с разными форматами данных.                       15.02.22
+ДЗ9 (Квиз2): https://netology.ru/profile/program/py-51/lessons/123622/lesson_items/630756
 
      Раздел 3. Работа с внешним API.
-Занятие 10. Работа с библиотекой requests, http запросы.      17.02.22
-Занятие 11. Работа с классами на примере API VK.              24.02.22
+
+ Занятие 10. Работа с библиотекой requests, http запросы.            17.02.22
+ДЗ10: https://github.com/netology-code/py-homeworks-basic/tree/new_oop/9.http.requests
+
+ Занятие 11. Работа с классами на примере API VK.                    24.02.22
+ДЗ11 (Тест): 
+
+
+            Модуль 2. (Самостоятельно. Проверка заданий преподом).
+        Git — система контроля версий.
+
+    Раздел 0. Организационная информация.
+
+ Занятие 0. Организационная информация.                              *
+Библиотека полезных материалов по Git & GitHub:
+https://github.com/netology-code/guides/blob/master/git-basics/GitMaterialsAll.md
+
+    Раздел 1. Система контроля версий Git & GitHub.
+
+ Занятие 1. Введение в систему контроля версий Git.                  *
+ДЗ1 (Тест): https://netology.ru/profile/program/git-41/lessons/138020/lesson_items/710528
+
+ Занятие 2. Внедрение системы контроля версий Git & GitHub.          *
+ДЗ2 (Самост.зад.): https://netology.ru/profile/program/git-41/lessons/138021/lesson_items/710538
+ДЗ2: https://github.com/netology-code/git-homeworks/tree/new-hw/introduction
+
+ Занятие 3. История работы и ветки в Git & GitHub.                   *
+ДЗ3: https://github.com/netology-code/git-homeworks/tree/new-hw/branch
+
+ Занятие 4. Командная работа в Git & GitHub.                         *
+ДЗ3: https://github.com/netology-code/git-homeworks/tree/master/remote
+
+
+            Модуль 3.
+        Базы данных для python-разработчиков.
+
+    Раздел 0. Организационная информация.
+
+ Занятие 0. О
+ДЗ3: h
+
+Профессиональная работа с Python.
+
+
+            Модуль 4.
+        Профессиональная работа с Python.
+
+    Раздел 0. Организационная информация.
+
+ Занятие 0. О
+ДЗ3: h
+
+
+            Модуль 5.
+        Django: создание функциональных веб-приложений.
+
+    Раздел 0. Организационная информация.
+
+ Занятие 0. О
+ДЗ3: h
+
+
+            Модуль 6.
+        Python в веб-разработке.
+
+    Раздел 0. Организационная информация.
+
+ Занятие 0. О
+ДЗ3: h
